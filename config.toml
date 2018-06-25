@@ -1,0 +1,4 @@
+baseURL = "http://www.xratom.com/"
+languageCode = "zh-cn"
+title = "Xu Ren"
+theme = "coder"
