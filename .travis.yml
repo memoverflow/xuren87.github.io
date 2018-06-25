@@ -13,7 +13,7 @@ deploy:
         branch: code
     local_dir: public
     repo: xuren87/xuren87.github.io
-    fqdn: xratom.com
+    fqdn: xuren87.github.io
     target_branch: master
     email: nichokiki@hotmail.com
     name: xuren87
