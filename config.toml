@@ -1,4 +1,50 @@
-baseURL = "https://xratom.com"
-languageCode = "zh-cn"
-title = "Xu Ren"
+baseURL = "http://xratom.com"
+languageCode = "en-us"
+title = "Lucas Ren"
 theme = "coder"
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+
+[params] # theme parameters
+    author = "Lucas Ren" # Author's name.
+    info = "Full Stack DevOps and Magician" # Author's job title or info.
+    description = "Talk is cheap, show me the code" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+
+    disqusShortname = "http-xratom-com" # Enable or disable Disqus
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+	custom_css = []
+
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/xuren87/"
+[[params.social]]
+    name = "Facebook"
+    weight = 2
+    url = "https://www.facebook.com/xuren.quantum/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/%E6%97%AD-%E4%BB%BB-a1922269/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+
