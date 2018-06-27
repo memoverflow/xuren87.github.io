@@ -15,11 +15,13 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     description = "Talk is cheap, show me the code" # Site description.
     keywords = "blog,developer,personal" # Site keywords.
 
-    disqusShortname = "http-xratom-com" # Enable or disable Disqus
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = true
     hideCopyright = false
+
+    disable_comments = false
+    gitment = true
 
     # Custom CSS
 	custom_css = []
