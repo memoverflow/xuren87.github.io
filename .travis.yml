@@ -4,6 +4,7 @@ git:
     depth: 1
 install: go get -v github.com/gohugoio/hugo
 script: 
+    - git clone https://github.com/luizdepra/hugo-coder.git themes/coder
     - hugo
 deploy:
     provider: pages
