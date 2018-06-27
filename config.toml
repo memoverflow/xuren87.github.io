@@ -1,4 +1,4 @@
-baseURL = "https://xratom.com"
+baseURL = "http://xratom.com"
 languageCode = "en-us"
 title = "Lucas Ren"
 theme = "coder"
